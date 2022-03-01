@@ -88,6 +88,11 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey \
     android.hardware.drm@1.3.vendor
 
+# FM radio
+PRODUCT_PACKAGES += \
+    FMRadio \
+    libfmjni
+
 # FastCharge
 PRODUCT_PACKAGES += \
     vendor.lineage.fastcharge@1.0-service.samsung
