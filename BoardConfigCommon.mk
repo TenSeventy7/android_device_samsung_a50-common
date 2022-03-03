@@ -111,6 +111,12 @@ TARGET_BOARD_PLATFORM := universal9610
 TARGET_BOOTLOADER_BOARD_NAME := exynos9610
 TARGET_SOC := exynos9610
 
+## ROM-specific bringup
+ARCANA_MAINTAINER := TenSeventy7
+WITH_GAPPS := false
+TARGET_SUPPORTS_BLUR := true
+COPY_APN_SYSTEM := true
+
 ## Properties
 TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
 TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
