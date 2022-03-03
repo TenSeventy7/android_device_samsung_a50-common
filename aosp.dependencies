@@ -26,9 +26,5 @@
     {
         "repository": "android_kernel_samsung_a50-common",
         "target_path": "kernel/samsung/a50-common"
-    },
-    {
-        "repository": "android_hardware_samsung_slsi_fm",
-        "target_path": "hardware/samsung_slsi/fm"
     }
 ]
